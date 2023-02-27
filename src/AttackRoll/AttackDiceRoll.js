@@ -6,6 +6,9 @@ Used crtl + shift + n to open a second instance of VScode allowing me to see the
 */
 
 function AttackDiceRoll(){
+
+
+
     return<div>
         <h1 className='Attack-Dice-Header' >This is where the attack dice go</h1>
         <div className='Attack-Dice-Buttons'>
