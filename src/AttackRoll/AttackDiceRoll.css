@@ -1,0 +1,31 @@
+.Attack-Dice-Header{
+    color: white;
+    
+    font-size: calc(25px);
+}
+
+/* after the name of the container is used the button keyword is used to specify that this is going to apply to all of the buttons */
+.Attack-Dice-Buttons button{
+background-color: whitesmoke;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: left;
+text-decoration:double;
+display:inline-block;
+font-style: italic;
+font-size: 17px;
+border-radius: 10px;
+}
+
+/*Similar to the Defense-Dice-Buttons, when hovered, this applies to all of the buttons in the Attack-Dice-Buttons div */
+
+.Attack-Dice-Buttons:hover button {
+    background-color: gray;
+    color:whitesmoke
+}
+
+.Attack-Dice-Buttons:focus button {
+    outline: none;
+    box-shadow: 0 0 5px pink;
+}

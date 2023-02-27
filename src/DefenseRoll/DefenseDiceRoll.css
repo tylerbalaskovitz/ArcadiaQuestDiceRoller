@@ -1,0 +1,42 @@
+
+
+
+.Defense-Dice-Header{
+    color: white;
+    
+    font-size: calc(25px);
+}
+/* By using the cotaininer name, IE a div or some other container, you first can put the name of the container and then the name of the element type you want all of a 
+specific element to be customized that is still within the container */
+.Defense-Dice-Buttons button{
+background-color: whitesmoke;
+border: none;
+color: black;
+padding: 15px 32px;
+text-align: left;
+text-decoration: double;
+display: inline-block;
+font-style:italic;
+font-size: 17px;
+border-radius: 10px;
+
+/*adding an effect for transition*/
+transition: background-color 0.3s ease;
+}
+
+/*Styling the Defense-Dice-Butttons when they're being hovered over. This is done by using the colon : and then afterwards the hover to show the styling will change
+when hovering your mouse over a particular button. There also cannot be any spaces between the 
+*/
+.Defense-Dice-Buttons:hover button{
+    background-color: gray;
+
+    /* Color is used to specify the foreground, IE the color of the font in CSS*/
+    color: whitesmoke;
+
+}
+
+.Defense-Dice-Buttons:focus button{
+    outline: none;
+    box-shadow: 0 0 5px pink;
+
+}
