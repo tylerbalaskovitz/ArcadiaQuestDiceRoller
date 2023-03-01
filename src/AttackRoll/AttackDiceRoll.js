@@ -12,8 +12,7 @@ function AttackDiceRoll(){
     return<div>
         <h1 className='Attack-Dice-Header' >This is where the attack dice go</h1>
         <div className='Attack-Dice-Buttons'>
-            <button className='addButton'>Add</button><button className = "subtractButton">Subtract</button>
-            <button className = "rollButton">Roll</button><button className='clearButton'>Clear</button>
+            <button>Add</button><button>Subtract</button><button>Roll</button><button>Clear</button>
         </div>
     </div>
 }

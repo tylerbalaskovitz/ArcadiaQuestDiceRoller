@@ -28,20 +28,20 @@ transition: background-color 0.3s ease;
 when hovering your mouse over a particular button. There also cannot be any spaces between the 
 */
 
-.addButton:hover{
+.Defense-Dice-Buttons button:nth-child(1):hover{
     background-color: gray;
     color:whitesmoke
 }
 
-.subtractButton:hover{
+.Defense-Dice-Buttons button:nth-child(2):hover{
     background-color: gray;
     color:whitesmoke
 }
-.rollButton:hover{
+.Defense-Dice-Buttons button:nth-child(3):hover{
     background-color: gray;
     color:whitesmoke
 }
-.clearButton:hover{
+.Defense-Dice-Buttons button:nth-child(4):hover{
     background-color: gray;
     color:whitesmoke
 }

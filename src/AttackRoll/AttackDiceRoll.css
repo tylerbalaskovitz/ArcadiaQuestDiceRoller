@@ -21,20 +21,20 @@ border-radius: 10px;
 /*Similar to the Defense-Dice-Buttons, when hovered, this applies to all of the buttons in the Attack-Dice-Buttons div */
 /*classes can be modified using the .className {} syntax */
 
-.addButton:hover{
+.Attack-Dice-Buttons button:nth-child(1):hover{
     background-color: gray;
     color:whitesmoke
 }
 
-.subtractButton:hover{
+.Attack-Dice-Buttons button:nth-child(2):hover{
     background-color: gray;
     color:whitesmoke
 }
-.rollButton:hover{
+.Attack-Dice-Buttons button:nth-child(3):hover{
     background-color: gray;
     color:whitesmoke
 }
-.clearButton:hover{
+.Attack-Dice-Buttons button:nth-child(4):hover{
     background-color: gray;
     color:whitesmoke
 }
