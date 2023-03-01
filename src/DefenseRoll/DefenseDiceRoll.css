@@ -27,12 +27,23 @@ transition: background-color 0.3s ease;
 /*Styling the Defense-Dice-Butttons when they're being hovered over. This is done by using the colon : and then afterwards the hover to show the styling will change
 when hovering your mouse over a particular button. There also cannot be any spaces between the 
 */
-.Defense-Dice-Buttons:hover button{
+
+.addButton:hover{
     background-color: gray;
+    color:whitesmoke
+}
 
-    /* Color is used to specify the foreground, IE the color of the font in CSS*/
-    color: whitesmoke;
-
+.subtractButton:hover{
+    background-color: gray;
+    color:whitesmoke
+}
+.rollButton:hover{
+    background-color: gray;
+    color:whitesmoke
+}
+.clearButton:hover{
+    background-color: gray;
+    color:whitesmoke
 }
 
 .Defense-Dice-Buttons:focus button{

@@ -13,7 +13,8 @@ const DefenseDiceRoll = () => {
     <div>
         <h1 className = 'Defense-Dice-Header'>Defense Dice willl be rolled here</h1>
         <div className='Defense-Dice-Buttons'>
-        <button className='Add-Button'>Add</button><button>Subtract</button><button>Roll</button><button>Clear</button>
+        <button className='addButton'>Add</button><button className = "subtractButton">Subtract</button>
+            <button className = "rollButton">Roll</button><button className='clearButton'>Clear</button>
         </div>
          </div>
     

@@ -19,8 +19,22 @@ border-radius: 10px;
 }
 
 /*Similar to the Defense-Dice-Buttons, when hovered, this applies to all of the buttons in the Attack-Dice-Buttons div */
+/*classes can be modified using the .className {} syntax */
 
-.Attack-Dice-Buttons:hover button {
+.addButton:hover{
+    background-color: gray;
+    color:whitesmoke
+}
+
+.subtractButton:hover{
+    background-color: gray;
+    color:whitesmoke
+}
+.rollButton:hover{
+    background-color: gray;
+    color:whitesmoke
+}
+.clearButton:hover{
     background-color: gray;
     color:whitesmoke
 }
