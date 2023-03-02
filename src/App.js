@@ -3,6 +3,7 @@ import './App.css';
 import ArcadiaLogo from './res/Logo.png';
 import AttackDiceRoll from './AttackRoll/AttackDiceRoll';
 import DefenseDiceRoll from './DefenseRoll/DefenseDiceRoll';
+import LoginForm from './LoginPage/LoginPage';
 
 //The App JS will be the main component used to render other components created throughout the application. 
 /*
@@ -20,10 +21,12 @@ Results should be able to be persisted into a DataBase that stores dice results,
 function App() {
   return (
     <div className="App">
+      
       <header className="App-header">
         <img src={ArcadiaLogo} className="App-logo" alt="logo" />
         <p>
           A friendly App for rolling dice and consuming resources 
+        
           <AttackDiceRoll />
           <DefenseDiceRoll />
         </p>
